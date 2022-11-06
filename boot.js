@@ -11,11 +11,11 @@
 ║
 ║
 ║
-╠🆁🅴🅳╬🅳🆁🅰🅶🅾🅽╣ 𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮 [`𝗞.𝗣𝗿𝗮𝗯𝗵𝗮𝘀𝗵𝗮´]
+╠🆁🅴🅳╬🅳🆁🅰🅶🅾🅽╣ 𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮 [`𝒕𝒐ᵳ𝒂𝒉𝒂´]
 ║
 ║
 ║
-╠═𝕆𝔹𝔽𝕌𝕊ℂ𝔸𝕋𝔼𝔻═𝔹𝕐═╣ 😎𝙆.𝙋𝙧𝙖𝙗𝙝𝙖𝙨𝙝𝙖❯❯
+╠═𝕆𝔹𝔽𝕌𝕊ℂ𝔸𝕋𝔼𝔻═𝔹𝕐═╣ 😎𝒕𝒐ᵳ𝒂𝒉𝒂❯❯
 ║
 ╠═══════(github.com/prabhasha2006)═══════╣
 ║
@@ -250,10 +250,10 @@ XeonLft = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeUR
 	            const xdate = moment.tz('Asia/Kolkata').format('YYYY/MM/DD')
 	            const xmembers = metadata.participants.length
                 let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: XeonWlcm, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
-                 xeonbody = `🤭🌹 Hi👋 @${xeonName.split("@")[0]}
+                 xeonbody = `🤭🌹 اهلا👋 @${xeonName.split("@")[0]}
 
-🤭🌹 Welcome To  ${metadata.subject}
-🤭🌹 ${xmembers} Members
+🤭🌹 نورت  ${metadata.subject}
+🤭🌹 ${xmembers} عدد الاعضاء
 
 Date  =  ${xdate}
 Time  =  ${xtime} `
@@ -264,7 +264,7 @@ Time  =  ${xtime} `
     {buttonId: `owner`, buttonText: {displayText: '🙏WELCOME🙏'}, type: 1}
     ]
 let buttonMessage = {
-    image: { url: 'https://i.ibb.co/0h3Sv26/20220805-080104.jpg'},
+    image: { url: 'https://i.ibb.co/7Kdk7vp/dragon.jpg'},
 caption: xeonbody,
 footer: `${footer}`,
 buttons,
@@ -279,19 +279,20 @@ KUMUTHU.sendMessage(anu.id, buttonMessage)
                 	let xeonName = num
                     const xeonmembers = metadata.participants.length
                     let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: xeonbuffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
-                     xeonbody = `😒🌹 Bye👋 @${xeonName.split("@")[0]}
+                     xeonbody = `😒🌹 تطلع يجي غيرك 
+👋 @${xeonName.split("@")[0]}
 
-😒🌹 Left From  ${metadata.subject}
-😒🌹 ${xeonmembers} Members
+😒🌹 غادر  ${metadata.subject}
+😒🌹 ${xeonmembers} عدد الاعضاء
                     
 Date =  ${xeondate}
 Time =  ${xeontime} `
 
    let buttons = [
-    {buttonId: `owner`, buttonText: {displayText: '👎BYE👎'}, type: 1}
+    {buttonId: `owner`, buttonText: {displayText: '👎الي يجي نضمه والي يخرج ك...👎'}, type: 1}
     ]
     let buttonMessage = {
-        image: { url: 'https://i.ibb.co/H4h3mh4/20220805-080200.jpg'},
+        image: { url: 'https://i.ibb.co/7Kdk7vp/dragon.jpg'},
     caption: xeonbody,
     footer: `${footer}`,
     buttons,
